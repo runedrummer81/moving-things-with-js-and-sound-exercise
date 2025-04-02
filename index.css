@@ -1,9 +1,21 @@
 #dodger {
-  background-color: white;
-  height: 20px;
+  height: 40px;
   position: absolute;
   width: 40px;
+  background-image: url("img/pacman.png"); /* Set background to Pac-Man image */
+  background-size: cover; /* Make sure the image fits */
+  background-repeat: no-repeat; /* Prevent image repetition */
 }
+
+#object {
+  background-color: aqua;
+  height: 20px;
+  position: absolute;
+  border-radius: 10px;
+  width: 20px;
+}
+
+
 
 #game {
   background-color: #111;
